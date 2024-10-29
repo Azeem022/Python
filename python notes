@@ -1,0 +1,168 @@
+######################################################What is Python?############################################################
+Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+It is used for:
+
+web development (server-side),
+software development,
+mathematics,
+system scripting.
+
+##########################################################Python Indentation#######################################################
+Indentation refers to the spaces at the beginning of a code line.
+
+Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+Python will give you an error if you skip the indentation:
+Python uses indentation to indicate a block of code.
+The number of spaces is up to you as a programmer, the most common use is four, but it has to be at least one.
+
+
+#######################################################Variables###########################################################
+Variables are containers for storing data values.
+
+#####Creating Variables
+Python has no command for declaring a variable.
+
+A variable is created the moment you first assign a value to it
+
+##########Casting
+If you want to specify the data type of a variable, this can be done with casting.
+
+Example
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
+
+################Get the Type
+You can get the data type of a variable with the type() function.
+
+Example
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+
+
+###########################Python - Variable Names
+####Camel Case
+Each word, except the first, starts with a capital letter:
+
+myVariableName = "John"
+
+########Pascal Case
+Each word starts with a capital letter:
+
+MyVariableName = "John"
+
+#########Snake Case
+Each word is separated by an underscore character:
+
+my_variable_name = "John"
+
+
+#########Python Variables - Assign Multiple Values
+
+######Many Values to Multiple Variables
+Python allows you to assign values to multiple variables in one line:
+
+ExampleGet your own Python Server
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+
+########One Value to Multiple Variables
+And you can assign the same value to multiple variables in one line:
+
+Example
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+########Unpack a Collection
+If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+
+Example
+Unpack a list:
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+###########Python - Output Variables
+In the print() function, you output multiple variables, separated by a comma:
+
+Example
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+You can also use the + operator to output multiple variables:
+
+Example
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+The best way to output multiple variables in the print() function is to separate them with commas, which even support different data types:
+
+Example
+x = 5
+y = "John"
+print(x, y)
+
+###################Python Numbers
+There are three numeric types in Python:
+
+int
+float
+complex
+
+Example 
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#########Type Conversion
+You can convert from one type to another with the int(), float(), and complex() methods:
+
+Example
+Convert from one type to another:
+
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+Note: You cannot convert complex numbers into another number type.
+
+#######################Random Number
+Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
+
+Example
+Import the random module, and display a random number between 1 and 9:
+
+import random
+
+print(random.randrange(1, 10))
