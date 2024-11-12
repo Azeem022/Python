@@ -225,3 +225,13 @@ Check if "free" is present in the following text:
 
 txt = "The best things in life are free!"
 print("free" in txt)
+
+==================================CLASS AND OBJECT ======================================CLASS AND OBJECT================================CLASS AND OBJECT====================================
+==================================CLASS AND OBJECT ======================================CLASS AND OBJECT================================CLASS AND OBJECT====================================
+==================================CLASS AND OBJECT ======================================CLASS AND OBJECT================================CLASS AND OBJECT====================================
+==================================CLASS AND OBJECT ======================================CLASS AND OBJECT================================CLASS AND OBJECT====================================
+==================================CLASS AND OBJECT ======================================CLASS AND OBJECT================================CLASS AND OBJECT====================================
+
+=================================What are classes and objects in Python?
+Classes in Python are blueprints for creating objects. They define the attributes (data) and methods (functions) that objects of the class will have.
+Objects are instances of classes. They are created from the class blueprint and can have their own unique data while sharing common methods defined in the class.
